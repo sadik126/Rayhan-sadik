@@ -43,4 +43,11 @@ section{
     /* background-image: url(images/bg1.gif); */
     width: 124%;
     height: 30%;
+    
+}
+.bottomsection{
+    margin-bottom: 0;
+}
+.section2{
+    margin-top: 0;
 }
