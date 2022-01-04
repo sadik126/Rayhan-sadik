@@ -12,3 +12,15 @@ h1{
 h3{
     color:#141414a8;
 }
+section{
+    display: flex;
+}
+.halfwidth{
+    width: 50%;
+    padding-left: 5%;
+   
+}
+.halfwidth img{
+    width: 70%;
+    padding-top: 10%;
+}
