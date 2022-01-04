@@ -15,6 +15,7 @@ h3{
 }
 section{
     display: flex;
+    margin-bottom: 125px;
 }
 .halfwidth{
     width: 50%;
@@ -39,15 +40,19 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.background img{
-    /* background-image: url(images/bg1.gif); */
-    width: 124%;
-    height: 30%;
-    
-}
-.bottomsection{
-    margin-bottom: 0;
-}
+
+
 .section2{
-    margin-top: 0;
+    background-image: url(images/bg1.gif);
+   background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.downloadbtn{
+    text-decoration: none;
+    background-image: linear-gradient(blue,black);
+    color: blanchedalmond;
+    padding: 10px 40px;
+    border-radius: 15px;
+    font-weight: 800;
 }
