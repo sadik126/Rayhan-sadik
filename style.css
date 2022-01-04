@@ -84,6 +84,7 @@ h3{
     margin-right: 5%;
     padding-left: 20px;
     box-shadow: 12px 12px 42px 1px rgba(32, 32, 41, 0.89);
+    border-radius: 15px;
 }
 .exp h2{
     font-size: 35px;
