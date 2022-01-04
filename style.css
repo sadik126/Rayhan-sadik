@@ -24,3 +24,13 @@ section{
     width: 70%;
     padding-top: 10%;
 }
+.hirebtn{
+    text-decoration: none;
+    background-color:#ff6e36;
+    padding: 10px 40px;
+    border-radius: 15px;
+    background-image: linear-gradient(#e13737,#4a4141);
+    color: rgb(255, 253, 253);
+    font-weight: 800;
+    
+}
