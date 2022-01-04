@@ -13,7 +13,7 @@ h1{
 h3{
     color:#141414a8;
 }
-section{
+.flexible{
     display: flex;
     margin-bottom: 125px;
 }
@@ -71,7 +71,20 @@ section{
     text-decoration: none;
     background-image: linear-gradient(blue,black);
     color: blanchedalmond;
-    padding: 10px 40px;
+    padding: 10px 25px;
     border-radius: 15px;
     font-weight: 800;
+}
+.red{
+    color: red;
+}
+
+.exp{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 12px 12px 42px 1px rgba(32, 32, 41, 0.89);
+}
+.exp h2{
+    font-size: 35px;
 }
