@@ -85,7 +85,25 @@ h3{
     padding-left: 20px;
     box-shadow: 12px 12px 42px 1px rgba(32, 32, 41, 0.89);
     border-radius: 15px;
+    
 }
 .exp h2{
     font-size: 35px;
+}
+
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#teach{
+    border-left: 7px solid;
+   border-image: linear-gradient(blue,rgb(195, 255, 0));
+   border-image-slice: 1;
+}
+#web{
+    border-left: 7px solid;
+   border-image: linear-gradient(rgb(255, 0, 13),rgb(195, 255, 0));
+   border-image-slice: 1;
 }
