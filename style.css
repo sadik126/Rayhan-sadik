@@ -107,3 +107,6 @@ h3{
    border-image: linear-gradient(rgb(255, 0, 13),rgb(195, 255, 0));
    border-image-slice: 1;
 }
+footer p {
+    text-align: center;
+}
