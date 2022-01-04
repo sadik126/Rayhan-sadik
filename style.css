@@ -39,3 +39,8 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.background img{
+    /* background-image: url(images/bg1.gif); */
+    width: 124%;
+    height: 30%;
+}
