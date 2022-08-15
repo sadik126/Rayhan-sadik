@@ -1,112 +1,214 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
-h1{
+h1 {
     font-size: 50px;
-    
+    line-height: 30px;
+
 }
-.sadik{
+
+.sadik {
     color: rgba(240, 6, 6, 0.842);
 }
-h3{
-    color:#141414a8;
+
+h3 {
+    color: #963004e3;
 }
-.flexible{
+
+.flexible {
     display: flex;
     margin-bottom: 125px;
 }
-.halfwidth{
+
+.halfwidth {
     width: 50%;
     padding-left: 5%;
-   
+    padding-top: 66px;
+
 }
-.halfwidth1{
+
+.halfwidth1 {
     width: 50%;
     padding-left: 3%;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    
 
-   
+
+
 }
-.halfwidth1{
+
+.halfwidth1 {
     padding-right: 8%;
 }
 
 
-.halfwidth img{
+.halfwidth img {
     width: 70%;
     padding-top: 10%;
+
 }
-.hirebtn{
+
+/* .hirebtn {
     text-decoration: none;
-    background-color:#ff6e36;
+    background-color: #ff6e36;
     padding: 10px 40px;
     border-radius: 15px;
-    background-image: linear-gradient(#e13737,#4a4141);
-    color: rgb(255, 253, 253);
-    font-weight: 800;
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
     
+    color: rgb(22, 21, 21);
+    font-weight: 800;
+    transition: 0.5s;
+    box-shadow: 0 0 20px #eee;
+    flex: 1 1 auto;
+
+} */
+
+
+
+.hirebtn {
+    background-image: linear-gradient(to right, #D38312 0%, #A83279 51%, #D38312 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    text-decoration: none;
 }
-.section{
+
+.hirebtn:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* .hirebtn:hover {
+    background-position: right center;
+} */
+
+.section {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
 
 
-.section2{
+.section2 {
     background-image: url(images/bg1.gif);
-  background-position: left;
-  background-size: 40%;
+    background-position: left;
+    background-size: 40%;
     background-repeat: no-repeat;
     /* background-image: url(images/dream-bg.png); */
 
 }
 
 
-.downloadbtn{
+/* .downloadbtn {
     text-decoration: none;
-    background-image: linear-gradient(blue,black);
+    background-image: linear-gradient(blue, black);
     color: blanchedalmond;
     padding: 10px 25px;
     border-radius: 15px;
     font-weight: 800;
 }
-.red{
+
+*/
+
+
+.downloadbtn {
+    background-image: linear-gradient(to right, #000428 0%, #004e92 51%, #000428 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.downloadbtn:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.red {
     color: red;
 }
 
-.exp{
+.exp {
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 20px;
     box-shadow: 12px 12px 42px 1px rgba(32, 32, 41, 0.89);
     border-radius: 15px;
-    
+
 }
-.exp h2{
+
+.exp h2 {
     font-size: 35px;
 }
 
-.experience{
+.experience {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
-    
+
 }
-#teach{
+
+#teach {
     border-left: 7px solid;
-   border-image: linear-gradient(blue,rgb(195, 255, 0));
-   border-image-slice: 1;
+    border-image: linear-gradient(#c43016 0%, #004e92 51%, #0e1eb5 100%);
+    border-image-slice: 1;
 }
-#web{
+
+#web {
     border-left: 7px solid;
-   border-image: linear-gradient(rgb(255, 0, 13),rgb(195, 255, 0));
-   border-image-slice: 1;
+    border-image: linear-gradient(#D38312 0%, #d82121 51%, #126cd3 100%);
+    border-image-slice: 1;
 }
+
 footer p {
     text-align: center;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .flexible {
+        display: flex;
+        flex-direction: column;
+        gap: 5;
+    }
+
+    .halfwidth {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .halfwidth1 {
+        width: 100%;
+    }
+
+    .halfwidth img {
+        width: 100%;
+    }
+
+    /* .flexible {
+        align-items: center;
+    } */
 }
